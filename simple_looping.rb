@@ -16,7 +16,7 @@ def loop_iterator(number)
     loop do 
       puts  "#{looping_string}" 
       number_start = number_start += 1
-     break if number == number 
+     break if number_start == number 
   end
 end 
 
